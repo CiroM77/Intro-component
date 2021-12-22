@@ -1,0 +1,177 @@
+body {
+    margin: 0%;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Poppins';
+    background-image: url(images/bg-intro-desktop.png);
+   background-color: hsl(0, 100%, 74%) ;
+   color: #ffffff;
+}
+
+/*  DEFECT  */
+
+a{
+    text-decoration: none;
+}
+
+/* CONTAINER */
+
+.container {
+    display: flex;
+    width: 900px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*  TEXT  */
+
+
+.text{
+    flex: 2;
+    padding: 20px;
+    margin-right: 10px;
+    
+}
+
+.text h1 {
+    font-weight: 700;
+    line-height: 1;
+    font-size: 2.5em; 
+    
+}
+
+.text p {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+/* A-TEST */
+.a-test {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(248, 32%, 49%);
+    color: #ffffff;
+    font-weight: 400;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    box-shadow: 0 10px 7px -10px hsl(0, 6%, 23%);
+    width: 430px;
+}
+
+.a-test:hover{
+    opacity: 0.7;
+    border: 1px solid hsl(248, 60%, 39%);
+}
+
+
+/*  FORM  */
+
+.text-form {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+     
+    
+}
+
+
+form{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 10px 10px -10px hsl(0, 6%, 23%);
+       
+}
+
+/* UL-LI */
+
+form ul {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+
+
+form ul li{
+    margin-top: 20px;
+  
+}
+
+form ul li:first-child {
+    margin-top: 0;
+}
+
+/* INPUT */
+form ul li input {
+    height: 40px;
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding-left: 25px;
+    opacity: 0.5;
+    
+}
+
+form ul li input:hover{
+    border: 1px solid black;
+    opacity: 1;
+    
+}
+
+/* P */
+form ul li p {
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    color: hsl(246, 25%, 77%)
+}
+
+.p-red {
+    color: hsl(0, 100%, 74%) ;
+    font-weight: 700;
+}
+
+
+
+/* BUTTON */
+.b-li{
+    background-color: hsl(154, 59%, 51%);
+    color: #ffffff;
+    padding: 13px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    width: 100%;
+    border: none;
+    box-shadow:0 10px 10px -10px hsl(0, 6%, 23%) ;
+}
+
+.b-li:hover{
+    opacity: 0.7; 
+}
+
+
+@media only screen and (max-width: 425px) {
+    .container {
+        display: grid;
+       margin: 2em 4em;
+       width: 300px;
+    }
+
+    
+
+
+}
+
+
